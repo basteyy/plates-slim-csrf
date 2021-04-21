@@ -21,7 +21,7 @@ class PlatesSlimCsrf implements ExtensionInterface
      * @param Guard $csrf The Guard Instance
      * @param string $csrfTemplate HTML DOM for the Template
      */
-    public function __construct(Guard $csrf, string $csrfTemplate = '<input type="text" name="%1$s" value="%2$s"><input type="text" name="%3$s" value="%4$s">')
+    public function __construct(Guard $csrf, string $csrfTemplate = '<input type="hidden" name="%1$s" value="%2$s"><input type="hidden" name="%3$s" value="%4$s">')
     {
         $this->csrf = $csrf;
         $this->csrfTemplate = $csrfTemplate;
