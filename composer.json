@@ -1,0 +1,22 @@
+{
+    "name": "basteyy/plates-slim-csrf",
+    "description": "A Plates Extension for using the Slim CSRF Middleware",
+    "keywords": ["slim","plates","csrf"],
+    "type": "library",
+    "require": {
+        "slim/csrf": "^1.2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Eiweleit",
+            "email": "b@steyy.de",
+            "homepage": "https://eiweleit.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "basteyy\\PlatesSlimCsrf\\": "src"
+        }
+    }
+}
